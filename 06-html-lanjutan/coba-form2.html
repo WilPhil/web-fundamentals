@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba Input Atribut & Checkbox & Radio</title>
+  </head>
+  <body>
+    <h1>Coba Input Atribut</h1>
+    <hr />
+
+    <form>
+      <label for="nama">
+        Nama:
+        <input type="text" name="name" id="name" placeholder="Masukkan nama" required autofocus />
+      </label>
+      <br />
+
+      <h3>Hobi:</h3>
+      <br />
+      <label for="hobi1">
+        <input type="checkbox" name="hobi1" id="hobi1" value="Basket" checked />
+        Basket
+      </label>
+      <label for="hobi2">
+        <input type="checkbox" name="hobi2" id="hobi2" value="Bola" />
+        Bola
+      </label>
+      <hr />
+
+      <h3>Gender:</h3>
+      <label for="man">
+        <input type="radio" name="gender" id="man" value="man" checked />
+        Man
+      </label>
+      <label for="woman">
+        <input type="radio" name="gender" id="woman" value="woman" />
+        Woman
+      </label>
+
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
