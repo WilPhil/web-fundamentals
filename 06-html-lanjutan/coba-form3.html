@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Select & Text Area</title>
+  </head>
+  <body>
+    <h1>Select & Text Area</h1>
+    <hr />
+
+    <form>
+      <label for="city">
+        <h3>Pick your City!</h3>
+        <select name="city" id="city" required>
+          <option value="" selected>-- Select a City --</option>
+          <option value="Ipswich">Ipswich</option>
+          <option value="Manchester">Manchester</option>
+          <option value="London">London</option>
+          <option value="Coventry">Coventry</option>
+        </select>
+      </label>
+      <br />
+
+      <label for="description">
+        <h3>Describe your City!</h3>
+        <textarea name="description" id="description" rows="8" cols="40" required></textarea>
+      </label>
+      <br />
+
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
