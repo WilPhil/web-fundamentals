@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba Elemen Form with Table</title>
+  </head>
+  <body>
+    <h1>Coba Elemen-Elemen Form with Table</h1>
+    <hr />
+
+    <h2>Without Table:</h1>
+    <form>
+      <label for="nama">
+        Nama:
+        <input type="text" name="nama" id="nama" placeholder="Masukkan Nama" />
+      </label>
+      <br />
+
+      <label for="password">
+        Password:
+        <input type="password" name="password" id="password" />
+      </label>
+      <br />
+
+      <label for="email">
+        Email:
+        <input type="email" name="email" id="email" />
+      </label>
+      <br />
+
+      <label for="number">
+        Number:
+        <input type="number" name="number" id="number" min="1" max="10" />
+      </label>
+      <br />
+
+      <label for="telephone">
+        Telephone:
+        <input type="tel" name="telephone" id="telephone" />
+      </label>
+      <br />
+
+      <label for="date">
+        Date:
+        <input type="date" name="date" id="date" />
+      </label>
+      <br />
+
+      <label for="file">
+        File:
+        <input type="file" name="file" id="file" />
+      </label>
+      <br />
+
+      <label for="color">
+        Color:
+        <input type="color" name="color" id="color" />
+      </label>
+      <br />
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <h2>With Table:</h1>
+    <form>
+      <table cellpadding="4">
+        <tr>
+          <td align="right">
+            <label for="nama">Nama:</label>
+          </td>
+          <td>
+            <input type="text" name="nama" id="nama" placeholder="Masukkan Nama" />
+          </td>
+        </tr>
+        <tr>
+          <td align="right">
+            <label for="password">Password:</label>
+          </td>
+          <td>
+            <input type="password" name="password" id="password" />
+          </td>
+        </tr>
+        <tr>
+          <td align="right">
+            <label for="email"> Email: </label>
+          </td>
+          <td>
+            <input type="email" name="email" id="email" />
+          </td>
+        </tr>
+        <tr>
+          <td align="right">
+            <label for="number">Number:</label>
+          </td>
+          <td>
+            <input type="number" name="number" id="number" min="1" max="10" />
+          </td>
+        </tr>
+        <tr>
+          <td align="right">
+            <label for="telephone"> Telephone: </label>
+          </td>
+          <td>
+            <input type="tel" name="telephone" id="telephone" />
+          </td>
+        </tr>
+        <tr>
+          <td align="right">
+            <label for="date"> Date: </label>
+          </td>
+          <td>
+            <input type="date" name="date" id="date" />
+          </td>
+        </tr>
+        <tr>
+          <td align="right">
+            <label for="file"> File: </label>
+          </td>
+          <td>
+            <input type="file" name="file" id="file" />
+          </td>
+        </tr>
+        <tr>
+          <td align="right">
+            <label for="color"> Color: </label>
+          </td>
+          <td>
+            <input type="color" name="color" id="color" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button type="submit">Submit</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
