@@ -23,7 +23,7 @@
             <a href="#">Schedule</a>
           </li>
           <li>
-            <a href="#">Tickets</a>
+            <a href="#tiket">Tickets</a>
           </li>
           <li>
             <a href="#">Gallery</a>
@@ -172,6 +172,81 @@
       </div>
     </section>
 
-    <section></section>
+    <section id="tiket">
+      <h2>Pemesanan Tiket</h2>
+      <div id="formulir-tiket">
+        <form>
+          <table cellpadding="8">
+            <tr>
+              <td align="right">
+                <label for="name">Nama Lengkap:</label>
+              </td>
+              <td><input type="text" name="name" id="name" placeholder="Joe Mama" /></td>
+            </tr>
+            <tr>
+              <td align="right">
+                <label for="email">Email:</label>
+              </td>
+              <td>
+                <input type="email" name="email" id="email" placeholder="joemama@gmail.com" />
+              </td>
+            </tr>
+            <tr>
+              <td align="right">
+                <label for="telephone">Nomor Telepon:</label>
+              </td>
+              <td>
+                <input type="tel" name="telephone" id="telephone" placeholder="081XXXXXXXXX" />
+              </td>
+            </tr>
+            <tr>
+              <td align="right">
+                <label for="ticket_type">Tipe Tiket:</label>
+              </td>
+              <td>
+                <input type="radio" name="ticket_type" id="ticket_type1" value="regular" />
+                Regular - Rp.500.000,00
+                <br />
+                <input type="radio" name="ticket_type" id="ticket_type2" value="vip" />
+                VIP - Rp.1.500.000,00
+                <br />
+                <input type="radio" name="ticket_type" id="ticket_type3" value="vvip" />
+                VVIP - Rp.3.000.000,00
+              </td>
+            </tr>
+            <tr>
+              <td align="right">
+                <label for="ticket_quantity">Jumlah Tiket: </label>
+              </td>
+              <td>
+                <input
+                  type="number"
+                  name="ticket_quantity"
+                  id="ticket_quantity"
+                  min="1"
+                  max="10"
+                  value="1"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td align="right">
+                <label for="day_pass">Day Pass:</label>
+              </td>
+              <td>
+                <input type="checkbox" name="day_pass" id="day_pass" value="day_1" />
+                Day 1
+                <br />
+                <input type="checkbox" name="day_pass" id="day_pass" value="day_2" />
+                Day 2
+                <br />
+                <input type="checkbox" name="day_pass" id="day_pass" value="day_3" />
+                Day 3
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </section>
   </body>
 </html>
