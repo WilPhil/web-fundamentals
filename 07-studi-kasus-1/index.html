@@ -182,14 +182,30 @@
                 <td align="right">
                   <label for="name">Nama Lengkap:</label>
                 </td>
-                <td><input type="text" name="name" id="name" placeholder="Joe Mama" /></td>
+                <td>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Joe Mama"
+                    required
+                    autofocus
+                    autocomplete="off"
+                  />
+                </td>
               </tr>
               <tr>
                 <td align="right">
                   <label for="email">Email:</label>
                 </td>
                 <td>
-                  <input type="email" name="email" id="email" placeholder="joemama@gmail.com" />
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="joemama@gmail.com"
+                    required
+                  />
                 </td>
               </tr>
               <tr>
@@ -197,7 +213,13 @@
                   <label for="telephone">Nomor Telepon:</label>
                 </td>
                 <td>
-                  <input type="tel" name="telephone" id="telephone" placeholder="081XXXXXXXXX" />
+                  <input
+                    type="tel"
+                    name="telephone"
+                    id="telephone"
+                    placeholder="081XXXXXXXXX"
+                    required
+                  />
                 </td>
               </tr>
               <tr>
@@ -243,6 +265,11 @@
                   <br />
                   <input type="checkbox" name="day_pass" id="day_pass" value="day_3" />
                   Day 3
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3" align="left">
+                  <button type="submit">Pesan</button>
                 </td>
               </tr>
             </table>
