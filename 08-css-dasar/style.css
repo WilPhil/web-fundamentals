@@ -1,0 +1,14 @@
+h1 {
+  font-size: 100px;
+  font-family: arial;
+  color: lightblue;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-style: italic;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+  color: cadetblue;
+}
