@@ -29,3 +29,13 @@ p {
   font-family: 'Plus Jakarta Sans', 'Times New Roman', serif;
   color: crimson;
 }
+
+/* Part 3: Shorthand Font */
+.shorthand {
+  /*font-style: italic;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;*/
+  font: italic 600 20px/30px Arial, Helvetica, sans-serif;
+}
