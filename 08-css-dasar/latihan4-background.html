@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan 4: Backgrounds</title>
+    <style>
+      body {
+        min-height: 100vh;
+        font-family: "Courier New", Courier, monospace;
+        font-weight: bold;
+        text-align: center;
+        background-image:
+          linear-gradient(to bottom, rgb(15 23 42 / 80%) 60%, rgb(0 0 0 / 40%)),
+          url(https://picsum.photos/id/10/1000/1000);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+      }
+
+      h1 {
+        font-size: 4em;
+        font-style: italic;
+        background-image: linear-gradient(to right, rgb(59, 160, 233), 65%, rgb(238, 80, 233));
+        background-clip: text;
+        color: transparent;
+        filter: drop-shadow(0 0 10px rgb(4 82 99 / 60%));
+        letter-spacing: 5px;
+        word-spacing: 5px;
+        text-transform: uppercase;
+      }
+
+      .container {
+        width: 1000px;
+        height: fit;
+        background-color: rgb(255 255 255 / 4%);
+        border: 1px solid rgb(255 255 255 / 10%);
+        margin: auto;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgb(255 255 255 / 5%);
+      }
+
+      .lyrics {
+        margin: 15px;
+        font-size: 1.3em;
+        line-height: 3;
+        word-spacing: 15px;
+        color: #eee;
+      }
+
+      .linethrough {
+        color: crimson;
+        text-shadow: 0 0 10px rgb(220 20 60 / 90%);
+      }
+
+      .quote {
+        width: 25%;
+        height: fit;
+        border-top: 1px solid grey;
+        margin: auto;
+        margin-top: 50px;
+      }
+
+      .author {
+        font-size: 0.9em;
+        color: rgb(151 151 151 / 70%);
+        text-transform: uppercase;
+        letter-spacing: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dimmed"></div>
+    <h1>Fase Runtuh</h1>
+    <div class="container">
+      <p class="lyrics">
+        "Tak perlu khawatir, ku hanya <span class="linethrough">terluka</span>. <br />
+        Terbiasa tuk pura-pura tertawa. <br />
+        Namun bolehkah sekali saja ku menangis? <br />
+        Sebelum kembali membohongi diri.""
+      </p>
+    </div>
+    <div class="quote">
+      <p class="author">- feby putri feat. fiersa besari</p>
+    </div>
+  </body>
+</html>
