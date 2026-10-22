@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple Background</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      }
+
+      .container {
+        width: 400px;
+        height: 350px;
+        border: 4px solid black;
+        margin: auto;
+        background-image:
+          url(img/zzz-transparent.png), url(img/istockphoto-2157790024-1024x1024.jpg),
+          url(img/istockphoto-1447107074-1024x1024.jpg);
+        background-size: 130px, 300px, 400px;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: center, top, bottom;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My Profile Container</h1>
+    <div class="container"></div>
+  </body>
+</html>
