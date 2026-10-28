@@ -7,37 +7,50 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <figure>
+    <article class="card-wrapper">
+      <figure class="product-photo">
         <img src="img/jersey.jpg" alt="Manchester City Jersey 2026/2027 Away" />
-        <figcaption>
-          <h2>PUMA SPORTSWEAR</h2>
-          <h3>Manchester City Jersey 2026/2027 Away</h3>
-          <p>
-            White dominates the kit, highlighting the central stripe composed of light and dark
-            blue.
-          </p>
-        </figcaption>
       </figure>
+      <h3 class="product-brand">PUMA SPORTSWEAR</h2>
+      <h2 class="product-name">Manchester City Jersey 2026/2027 Away</h3>
+      <p class="product-desc">
+        White dominates the kit, highlighting the central stripe composed of light and dark blue.
+      </p>
       <div class="price_tag">
         <span class="discount_price">Rp. 1.200.000,00</span>
-        <span class="real_price">Rp. 1.500.000,00</span>
+        <del class="real_price">Rp. 1.500.000,00</del>
       </div>
-      <div class="sizing">
-        <h3>Sizing (IND):</h3>
-        <div class="size_button">
-          <button type="button">S</button>
-          <button type="button">M</button>
-          <button type="button">L</button>
-          <button type="button">XL</button>
-          <button type="button">XLL</button>
-        </div>
-      </div>
-      <div class="add_to_cart">
-        <button type="button">
+
+      <form action="#" method="post">
+        <fieldset class="size-wrapper">
+          <legend class="size-label">Size:</legend>
+          <div class="size-options">
+            <label for="size_s">
+              <input type="radio" name="size" id="size_s" value="s">
+                S
+            </label>
+            <label for="size_m">
+              <input type="radio" name="size" id="size_m" value="m">
+                M
+            </label>
+            <label for="size_l">
+              <input type="radio" name="size" id="size_l" value="l">
+                L
+            </label>
+            <label for="size_xl">
+              <input type="radio" name="size" id="size_xl" value="xl">
+                XL
+            </label>
+            <label for="size_xll">
+              <input type="radio" name="size" id="size_xll" value="xll">
+                XLL
+            </label>
+          </div>
+        </fieldset>
+        <button type="submit" class="add-to-cart">
           <p>ADD TO CART</p>
         </button>
-      </div>
-    </div>
+      </form>
+    </article>
   </body>
 </html>
